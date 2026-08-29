@@ -1,0 +1,6 @@
+{
+  "name": "Mafia Ku Bot & Admin Dashboard",
+  "description": "Production-ready Telegram multiplayer Mafia Bot (@mafiaku_gobot) with Python 3.12, aiogram 3.x, PostgreSQL, Redis, 26 languages, full game engine, and administrative command center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
