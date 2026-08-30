@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
-COPY main.py README.md railway.toml .env.example ./
+COPY main.py railway.toml .env.example ./
 COPY --from=frontend-builder /frontend/dist ./web_dist
 
 EXPOSE 3000
